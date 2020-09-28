@@ -17,12 +17,13 @@ const Header: React.FC<IHeaderProps> = ({ openModal }) => (
         <div>
           <button
             type="button"
-            onClick={() => {
+            onClick={() => 
               /* TODO OPEN MODAL */
-            }}
+              openModal()
+            }
           >
             <div className="text">Novo Prato</div>
-            <div className="icon">
+            <div className="icon" >
               <FiPlusSquare size={24} />
             </div>
           </button>
